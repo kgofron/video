@@ -51,7 +51,7 @@ try:
             img_sec = img_time.split('-')
 #            print img_day[0], img_day[1], img_day[2],img_sec[0],img_sec[1],img_sec[2]
 # Select images from the day between 9:00am and 8:00pm            
-            if ((int(img_sec[0]) > 9) and (int(img_sec[0]) < 20)):
+            if ((int(img_sec[0]) > 6) and (int(img_sec[0]) < 19)):
                 src_img = "%s/%s"  %(sys.argv[1], fName)
                 countStr = "%06d" % count
 #               print countStr
